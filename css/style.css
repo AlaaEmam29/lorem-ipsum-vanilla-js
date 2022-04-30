@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f1f5f8;
+}
+.lorem-form {
+  width: 40%;
+}
+h3 {
+  font-size: 28px;
+  letter-spacing: 0.25rem;
+  font-weight: 700;
+  color: #063251;
+  line-height: 1.5;
+  padding: 2rem 0;
+}
+label {
+  letter-spacing: 0.25rem;
+  color: #063251;
+  font-size: 20px;
+}
+.dummy-text {
+  color: #617d98;
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 575.98px) {
+  .main-width,
+  .lorem-form {
+    width: 85% !important;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  .dummy-text {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+  .main-width,
+  .lorem-form {
+    width: 75% !important;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  .dummy-text {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  .main-width {
+    width: 75% !important;
+  }
+  .lorem-form {
+    width: 50% !important;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .lorem-form {
+    width: 60% !important;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1399.98px) {
+  .lorem-form {
+    width: 50% !important;
+  }
+}
